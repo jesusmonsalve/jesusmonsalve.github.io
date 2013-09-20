@@ -11,6 +11,7 @@ html {
 	background-repeat:no-repeat;
 	background-size: 1400px ;
 	background-color: #000;
+	
 }
 
 header {
@@ -125,6 +126,7 @@ figure figcaption {
 	background-color: rgba(51,0,51,1);
 	color: white;
 	padding: 0.2em 0 0.2em 0;
+	font-size: 0.8rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -161,6 +163,10 @@ figure figcaption {
 	.info {
 		margin: 5em 3em 3em 5em;
 	}
+	
+	html {
+		margin-right: 4em;
+	}
 }
 
 @media only screen and (min-width: 60em) {
@@ -181,12 +187,21 @@ figure figcaption {
 	article p {
 		font-size: 1.3rem;
 	}
+	
+	.work {
+		margin-top: 4em;
+	}
+	
+	.work li {
+		width: 350px;
+	}
 }
 
 @media only screen and (min-width: 100em) {
 	
 	html{ 
 		background-size: 2400px;
+		
 	}
 	
 	article {
@@ -197,6 +212,10 @@ figure figcaption {
 	
 	header img {
 		width: 50px;
+	}
+	
+	.work li {
+		width: 900px;
 	}
 }
 
